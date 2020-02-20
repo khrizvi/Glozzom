@@ -1,0 +1,187 @@
+/**VARIABLE**/
+/**Navbar**/
+.navbar {
+  background: #000 !important;
+}
+
+.navbar .nav-item {
+  margin-left: 1em;
+}
+
+/**Showcase**/
+#showcase .carousel-item {
+  height: 500px;
+}
+
+#showcase .carousel-img-1 {
+  background: url(../img/ncity1.jpg) top center;
+  background-size: cover;
+}
+
+#showcase .carousel-img-2 {
+  background: url(../img/ncity2.jpg);
+  background-size: cover;
+}
+
+#showcase .carousel-img-3 {
+  background: url(../img/ncity3.jpg) top center;
+  background-size: cover;
+}
+
+/**Showcasebox**/
+#showcasebox .fa {
+  font-size: 50px;
+}
+
+/** ShowCard **/
+#showcard {
+  position: relative;
+  background: url(../img/v.jpeg) no-repeat top center;
+  background-size: cover;
+  height: 350px;
+  background-attachment: fixed;
+}
+
+#showcard .backfiximage {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/** Info Section **/
+#infosection {
+  position: relative;
+  background: url(../img/crane.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+#infosection .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#infosection .dark-overlay .fa {
+  font-size: 50px;
+  color: #ff0000;
+}
+
+/**Gallery Section**/
+#gallery img {
+  min-height: 250px;
+}
+
+/**Footer Section**/
+#footer {
+  background: #000 !important;
+}
+
+/**ABOUT SECTION**/
+#aboutUs {
+  background: url(../img/sea.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+/**PLAYCARD SECTION**/
+#playcard .fa {
+  font-size: 50px;
+}
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000;
+}
+
+/*Service Section*/
+#ServiceTS {
+  background: url(../img/climb.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+#ServiceTS .img-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Blog Section*/
+#BlogTS {
+  background: url(../img/confarence.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+#BlogTS .img-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#blogPost img {
+  min-height: 250px;
+}
+
+/*Contact Section*/
+#ContactTS {
+  background: url(../img/dcity1.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+#ContactTS .img-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**Responsive Breakpoint**/
+@media (max-width: 767px) {
+  #navbarId .nav-item {
+    margin-left: 0;
+  }
+  #faq .mar_top {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  #showcase .carousel h2 {
+    font-size: 2.5rem;
+  }
+  #blogPost .card {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #showcard {
+    height: 450px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
